@@ -1,3 +1,4 @@
+# code for temp
 import machine
 import onewire, ds18x20
 import time
@@ -15,3 +16,7 @@ while True:
         temp = t_sensor.read_temp(scan)
         print(f"Temperature: {temp:.1f} °C")
     time.sleep(2)
+
+
+# code for distance
+
